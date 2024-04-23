@@ -751,6 +751,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     align-items: center;
     flex-direction: column;
   }
+  .Testimonials img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .Testimonials h2 {
     text-align: left;
     padding-top: 60px;
@@ -792,12 +796,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .Testimonials .john img {
     height: 100%;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .Testimonials .joh h4 {
     margin-bottom: -15px;
     font-size: 15px;
+  }
+  .OurGallery img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .OurGallery h2 {
     text-align: left;
