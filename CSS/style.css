@@ -260,7 +260,10 @@ header {
 }
 
 .Testimonials {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 .Testimonials .john {
@@ -744,6 +747,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .Testimonials {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   .Testimonials h2 {
@@ -752,13 +757,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding-bottom: 50px;
   }
   .Testimonials .gemma {
-    padding: 30px 110px;
     margin-top: 0px;
-    height: 70vh;
+    height: 100%;
   }
   .Testimonials .gemma #gem {
-    width: 50%;
-    padding-top: 20px;
+    width: 30%;
   }
   .Testimonials .gemma p {
     font-size: 15px;
@@ -766,7 +769,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .Testimonials .gemma h3 {
     font-size: 15px;
-    margin-top: -40px;
+    margin-top: -30px;
   }
   .Testimonials .gemma .container {
     height: 10vh;
@@ -780,8 +783,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 40%;
     margin-top: -60px;
   }
+  .Testimonials .john {
+    height: 100%;
+  }
+  .Testimonials .john #stones {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .Testimonials .john img {
-    height: 70vh;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .Testimonials .joh h4 {
     margin-bottom: -15px;
@@ -793,14 +805,28 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .OurGallery .truck img {
     height: 35.5vh;
     width: 55vh;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .OurGallery .car img {
     height: 35.5vh;
     width: 110%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .OurGallery #sand {
     height: 35.5vh;
     width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .OurGallery .sand img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .OurGallery #boat img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   footer {
     width: 100%;
