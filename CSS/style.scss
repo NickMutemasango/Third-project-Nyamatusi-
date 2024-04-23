@@ -555,6 +555,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     flex-direction: column;
     h2{text-align: left;padding-top: 60px;padding-bottom: 50px;}
     .gemma{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         margin-top: 0px;
         height: 100%;
         #gem{width: 30%;}
@@ -568,7 +572,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             align-items: center;
             .line{height: 25px;width: 40%; margin-top: -60px;
             }
-        }   
+        } 
+          
     }
     .john{height: 100%;
         #stones{object-fit: cover;}

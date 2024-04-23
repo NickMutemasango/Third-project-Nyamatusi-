@@ -761,6 +761,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding-bottom: 50px;
   }
   .Testimonials .gemma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 0px;
     height: 100%;
   }
